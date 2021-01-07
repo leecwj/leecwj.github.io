@@ -16,6 +16,7 @@ class AboutCard extends Component {
                     <img className="aboutcard-img" src={this.props.imgSrc} alt={this.props.imgAlt}/>
                 </div>
                 <div className="aboutcard-desc">
+                    <div className="aboutcard-title"><h1>{this.props.cardTitle}</h1></div>
                     {this.props.children}
                 </div>
             </div>
