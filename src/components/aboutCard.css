@@ -1,17 +1,24 @@
 .aboutcard {
     width: 90%;
-    background-color: #5F5447;
+    height: auto;
+    background-image: url("../images/aboutcard-background.svg");
+    background-size: cover;
     display: flex;
     flex-direction: row;
+    float: right;
+    padding-right: 2vh;
 }
 
 .aboutcard-img {
-    width: 40vh;
-    height: 40vh;
+    width: 100%;
+    height: 100%;
 }
 
 .aboutcard-img-container {
-    background-color: #D7C6B3;
+    height: 100%;
+    width: auto;
+    background-image: url("../images/aboutcard-img-background.svg");
+    background-size: 100% 100%;
 }
 
 .aboutcard-desc {
