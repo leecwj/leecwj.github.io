@@ -1,0 +1,19 @@
+.aboutcard {
+    width: 90%;
+    background-color: #5F5447;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutcard-img {
+    width: 40vh;
+    height: 40vh;
+}
+
+.aboutcard-img-container {
+    background-color: #D7C6B3;
+}
+
+.aboutcard-desc {
+    color: #D7C6B3;
+}
