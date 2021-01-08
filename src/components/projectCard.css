@@ -1,0 +1,12 @@
+.projectcard-img {
+    width: 40vh;
+    height: 30vh;
+    background-color: #D7C6B3;
+}
+
+.projectcard-img-container {
+    height: min-content;
+    width: min-content;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}

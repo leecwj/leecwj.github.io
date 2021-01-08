@@ -1,7 +1,7 @@
 .card {
     width: 90%;
     height: auto;
-    background-image: url("../images/aboutcard-background.svg");
+    background-image: url("../images/card-background.svg");
     background-size: cover;
     display: flex;
     flex-direction: row;
