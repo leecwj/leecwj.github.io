@@ -1,13 +1,3 @@
-.aboutcard {
-    width: 90%;
-    height: auto;
-    background-image: url("../images/aboutcard-background.svg");
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    float: right;
-}
-
 .aboutcard-img {
     width: 100%;
     height: 100%;
@@ -18,22 +8,4 @@
     width: auto;
     background-image: url("../images/aboutcard-img-background.svg");
     background-size: 100% 100%;
-}
-
-.aboutcard-desc {
-    color: #D7C6B3;
-    padding-left: 2vh;
-    padding-right: 2vh;
-}
-
-.aboutcard-title {
-    background-color: #D7C6B3;
-    color: #5F5447;
-    width: min-content;
-    padding-left: 2vh;
-    padding-right: 2vh;
-}
-
-h1 {
-    white-space: nowrap;
 }

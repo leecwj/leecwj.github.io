@@ -1,0 +1,27 @@
+.card {
+    width: 90%;
+    height: auto;
+    background-image: url("../images/aboutcard-background.svg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.card-desc {
+    color: #D7C6B3;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.card-title {
+    background-color: #D7C6B3;
+    color: #5F5447;
+    width: min-content;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+h1 {
+    white-space: nowrap;
+}
