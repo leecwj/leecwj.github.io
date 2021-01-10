@@ -1,0 +1,22 @@
+.navigationbaritem {
+    height: min-content;
+    width: min-content;
+    background-image: url("../images/navigationbaritem-background.svg");
+    background-size: contain;
+}
+
+.navigationbaritem-title {
+    color: #46352A;
+    height: min-content;
+    width: min-content;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.navigationbaritem-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #896855;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}

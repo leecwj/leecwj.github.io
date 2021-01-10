@@ -1,0 +1,11 @@
+.navigationbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigationbar-img {
+    background-color: #D7C6B3;
+    width: 15vh;
+    height: 15vh;
+}
