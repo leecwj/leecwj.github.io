@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {Link} from "react-router-dom";
 import "./navigationBarItem.css";
 
 class NavigationBarItem extends Component {
@@ -14,7 +15,9 @@ class NavigationBarItem extends Component {
         return (
             <div className="navigationbaritem">
                 <div className="navigationbaritem-title">
-                    <h1 className="navigationbaritem-heading">{this.props.children}</h1>
+                    <Link to={this.props.to} name={this.props.name}>
+                        <h1 className="navigationbaritem-heading">{this.props.children}</h1>
+                    </Link>
                 </div>
             </div>
         );
