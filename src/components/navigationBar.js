@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {Link} from "react-router-dom"
 import "./navigationBar.css";
 
 class NavigationBar extends Component {
@@ -13,7 +14,9 @@ class NavigationBar extends Component {
     render() {
         return (
           <div className="navigationbar">
-              <img className="navigationbar-img" src={this.props.imgSrc} alt={this.props.imgAlt}/>
+              <Link to="/" name="home">
+                  <img className="navigationbar-img" src={this.props.imgSrc} alt={this.props.imgAlt}/>
+              </Link>
               {this.props.children}
           </div>
         );
