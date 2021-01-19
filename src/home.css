@@ -1,0 +1,20 @@
+.home {
+    width: 100%;
+}
+
+.impression {
+    background-color: #100B0C;
+    background-image: url("images/impression-background.svg");
+    width: 90%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    padding-left: 10%;
+}
+
+.impression-line {
+    background-color: #ba957a;
+    color: #100B0C;
+    width: min-content;
+}
